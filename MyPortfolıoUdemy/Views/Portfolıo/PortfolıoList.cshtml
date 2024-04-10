@@ -1,0 +1,68 @@
+﻿@model List<Portfolıo>
+
+@{
+    ViewData["Title"] = "PortfolıoList";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+<div class="content">
+    <div class="container-fluid">
+        <h4 class="page-title">Portfolyo</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">Projelerim </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-sub">
+                            Projelerle ile ilgili işlemleri aşağıdaki panelden yapabilirsiniz.
+                        </div>
+                        <table class="table mt-3">
+                            <thead>
+                                <tr>
+                                    
+                                    <th scope="col">Proje Adı</th>
+                                    <th scope="col"> Açıklama</th>
+                                    <th scope="col">Proje Görseli</th>
+                                    <th scope="col">Proje Yolu</th>
+                                    <th scope="col">Detay</th>
+                                    <th scope="col">Sil</th>
+                                    <th scope="col">Güncelle</th>
+
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        
+                                        <td>@item.Title</td>
+                                        <td>@item.SubTtitle</td>
+                                        <td>@item.ImagrUrl</td>
+                                        <td>@item.Url</td>
+                                        <td>@item.Description</td>
+
+
+                                        <td><a href="/Portfolıo/DeletePortfolıo/@item.PortfolıoId" class="btn btn-danger">Sil</a></td>
+                                        <td><a href="/Portfolıo/DeletePortfolıo/@item.PortfolıoId" class="btn btn-primary">Güncelle</a></td>
+
+
+
+                                    </tr>
+
+                                }
+
+                            </tbody>
+                        </table>
+                        <td><a href="/Portfolıo/CreatePortfolıo/" class="btn btn-primary">Yeni Proje Girişi</a></td>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+

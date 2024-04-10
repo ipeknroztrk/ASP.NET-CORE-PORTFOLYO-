@@ -1,0 +1,50 @@
+﻿@model Contact
+
+@{
+    ViewData["Title"] = "UpdateContact";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <h4 class="page-title">İletişim Bilgisi</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">İletişim Bilgisi Güncelleme Sayfası</div>
+                    </div>
+                    <div class="card-body">
+
+                        <form method="post">
+                            <input type="hidden" asp-for="ContactId" />
+                            <label>Başlık</label>
+                            <input type="text" asp-for="Title" class="form-control" />
+                            <br />
+                            <label>Açıklama</label>
+                            <input type="text" asp-for="Description" class="form-control" />
+                            <br />
+                            <label>Telefon 1</label>
+                            <input type="text" asp-for="Phone1" class="form-control" />
+                            <br />
+                            <label>Telefon 2</label>
+                            <textarea rows="4" class="form-control" asp-for="Phone2"></textarea>
+                            <br />
+                            <label>E mail 1</label>
+                            <input type="text" asp-for="Email1" class="form-control" />
+                            <br />
+                            <label>E mail 2</label>
+                            <input type="text" asp-for="Email2" class="form-control" />
+                            <br />
+                            <label>Adres</label>
+                            <textarea rows="4" class="form-control" asp-for="Address"></textarea>
+                            <br />
+                            <button class="btn btn-primary">İletişim Bilgisini Güncelle</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

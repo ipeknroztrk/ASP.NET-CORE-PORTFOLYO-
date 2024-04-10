@@ -1,0 +1,102 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DAL\" />
+    <None Remove="DAL\Entities\" />
+    <None Remove="DAL\Context\" />
+    <None Remove="Views\Default\" />
+    <None Remove="ViewComponents\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\_HeadComponentPartial\" />
+    <None Remove="Views\Shared\Components\_NavbarComponentPartial\" />
+    <None Remove="Views\Shared\Components\_AboutComponentPartial\" />
+    <None Remove="Views\Shared\Components\_SkillComponentPartial\" />
+    <None Remove="Views\Shared\Components\_ExperienceComponentPartial\" />
+    <None Remove="Views\Shared\Components\_PortfolıoComponentPartial\" />
+    <None Remove="Views\Shared\Components\_TestimonialComponentPartial\" />
+    <None Remove="Views\Shared\Components\_StatisticComponentPartial\" />
+    <None Remove="Views\Shared\Components\_ContactComponentPartial\" />
+    <None Remove="Views\Shared\Components\_FooterComponentPartial\" />
+    <None Remove="Views\Shared\Components\_FeatureComponentPartial\" />
+    <None Remove="Views\Layout\" />
+    <None Remove="Views\Experience\" />
+    <None Remove="ViewComponents\LayoutViewComponents\" />
+    <None Remove="Views\Shared\Components\_LayoutHeadComponentPartial\" />
+    <None Remove="Views\Shared\Components\_LayoutNavbarComponentPartial\" />
+    <None Remove="Views\Shared\Components\_LayoutSidebarComponentPartial\" />
+    <None Remove="Views\Shared\Components\_LayoutScriptComponentPartial\" />
+    <None Remove="Views\About\" />
+    <None Remove="Views\Statistic\" />
+    <None Remove="Views\Message\" />
+    <None Remove="Views\ToDoList\" />
+    <None Remove="Views\Feature\" />
+    <None Remove="Views\Skill\" />
+    <None Remove="Views\Portfolıo\" />
+    <None Remove="Views\Contact\" />
+    <None Remove="Views\SocialMedia\" />
+    <None Remove="Views\Testimonial\" />
+    <None Remove="Views\Login\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DAL\" />
+    <Folder Include="DAL\Entities\" />
+    <Folder Include="DAL\Context\" />
+    <Folder Include="Views\Default\" />
+    <Folder Include="wwwroot\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\_HeadComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_NavbarComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_AboutComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_SkillComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_ExperienceComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_PortfolıoComponentPartial\" />
+    <Folder Include="wwwroot\hola-master\images\portfolio\gallery\" />
+    <Folder Include="Views\Shared\Components\_TestimonialComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_StatisticComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_ContactComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_FooterComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_FeatureComponentPartial\" />
+    <Folder Include="Views\Layout\" />
+    <Folder Include="Views\Experience\" />
+    <Folder Include="ViewComponents\LayoutViewComponents\" />
+    <Folder Include="Views\Shared\Components\_LayoutHeadComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_LayoutNavbarComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_LayoutSidebarComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_LayoutScriptComponentPartial\" />
+    <Folder Include="Views\About\" />
+    <Folder Include="Views\Statistic\" />
+    <Folder Include="Views\Message\" />
+    <Folder Include="Views\ToDoList\" />
+    <Folder Include="Views\Feature\" />
+    <Folder Include="Views\Skill\" />
+    <Folder Include="Views\Portfolıo\" />
+    <Folder Include="Views\Contact\" />
+    <Folder Include="Views\SocialMedia\" />
+    <Folder Include="Views\Testimonial\" />
+    <Folder Include="Views\Login\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NETCore.Runtime.CoreCLR" Version="2.0.8" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\" />
+    <Content Remove="wwwroot\hola-master\images\portfolio\gallery\" />
+  </ItemGroup>
+</Project>

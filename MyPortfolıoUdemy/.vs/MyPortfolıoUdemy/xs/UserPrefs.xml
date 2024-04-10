@@ -1,0 +1,63 @@
+﻿<Properties StartupConfiguration="{1331C32A-AD3A-49B0-8B98-489476337B67}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Shared/Components/_FooterComponentPartial/Default.cshtml">
+    <Files>
+      <File FileName="Views/ToDoList/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Statistic/Index.cshtml" Line="177" Column="62" />
+      <File FileName="Views/Shared/Components/_ContactComponentPartial/Default.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Contact/ContactList.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Shared/Components/_FooterComponentPartial/Default.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyPortfolıoUdemy" expanded="True">
+            <Node name="MyPortfolıoUdemy" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="ViewComponents" expanded="True">
+                <Node name="LayoutViewComponents" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="About" expanded="True" />
+                <Node name="Contact" expanded="True" />
+                <Node name="Layout" expanded="True" />
+                <Node name="Login" expanded="True" />
+                <Node name="Message" expanded="True" />
+                <Node name="Portfolıo" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="_AboutComponentPartial" expanded="True" />
+                    <Node name="_ContactComponentPartial" expanded="True" />
+                    <Node name="_FeatureComponentPartial" expanded="True" />
+                    <Node name="_FooterComponentPartial" expanded="True">
+                      <Node name="Default.cshtml" selected="True" />
+                    </Node>
+                    <Node name="_HeadComponentPartial" expanded="True" />
+                    <Node name="_LayoutHeadComponentPartial" expanded="True" />
+                    <Node name="_LayoutNavbarComponentPartial" expanded="True" />
+                    <Node name="_LayoutSidebarComponentPartial" expanded="True" />
+                    <Node name="_StatisticComponentPartial" expanded="True" />
+                    <Node name="_TestimonialComponentPartial" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="Statistic" expanded="True" />
+                <Node name="Testimonial" expanded="True" />
+                <Node name="ToDoList" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MyPortfolıoUdemy PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,221 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MyPortfolıoUdemy
+build_property.RootNamespace = MyPortfolıoUdemy
+build_property.ProjectDir = /Users/ipek/Desktop/MyPortfolıoUdemy/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/ipek/Desktop/MyPortfolıoUdemy
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/About/AboutList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXQvQWJvdXRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/About/UpdateAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXQvVXBkYXRlQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Contact/ContactList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9Db250YWN0TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Contact/UpdateContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9VcGRhdGVDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVmYXVsdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Experience/CreateExperience.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwZXJpZW5jZS9DcmVhdGVFeHBlcmllbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Experience/ExperienceList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwZXJpZW5jZS9FeHBlcmllbmNlTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Experience/UpdateExperience.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwZXJpZW5jZS9VcGRhdGVFeHBlcmllbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Feature/CreateFeature.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmVhdHVyZS9DcmVhdGVGZWF0dXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Feature/FeatureList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmVhdHVyZS9GZWF0dXJlTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Feature/UpdateFeature.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmVhdHVyZS9VcGRhdGVGZWF0dXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Layout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGF5b3V0L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Message/Inbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVzc2FnZS9JbmJveC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Message/MessageDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVzc2FnZS9NZXNzYWdlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Portfolıo/CreatePortfolıo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9ydGZvbMSxby9DcmVhdGVQb3J0Zm9sxLFvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Portfolıo/PortfolıoList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9ydGZvbMSxby9Qb3J0Zm9sxLFvTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Portfolıo/UpdatePortfolıo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9ydGZvbMSxby9VcGRhdGVQb3J0Zm9sxLFvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Shared/Components/_AboutComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Fib3V0Q29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Shared/Components/_ContactComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0NvbnRhY3RDb21wb25lbnRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Shared/Components/_ExperienceComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0V4cGVyaWVuY2VDb21wb25lbnRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Shared/Components/_FeatureComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0ZlYXR1cmVDb21wb25lbnRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Shared/Components/_FooterComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Zvb3RlckNvbXBvbmVudFBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Shared/Components/_HeadComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0hlYWRDb21wb25lbnRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Shared/Components/_LayoutHeadComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0xheW91dEhlYWRDb21wb25lbnRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Shared/Components/_LayoutNavbarComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0xheW91dE5hdmJhckNvbXBvbmVudFBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Shared/Components/_LayoutScriptComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0xheW91dFNjcmlwdENvbXBvbmVudFBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Shared/Components/_LayoutSidebarComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0xheW91dFNpZGViYXJDb21wb25lbnRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Shared/Components/_NavbarComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX05hdmJhckNvbXBvbmVudFBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Shared/Components/_PortfolıoComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1BvcnRmb2zEsW9Db21wb25lbnRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Shared/Components/_SkillComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1NraWxsQ29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Shared/Components/_StatisticComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1N0YXRpc3RpY0NvbXBvbmVudFBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Shared/Components/_TestimonialComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1Rlc3RpbW9uaWFsQ29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Skill/AddSkill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2tpbGwvQWRkU2tpbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Skill/SkillList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2tpbGwvU2tpbGxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Skill/UpdateSkill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2tpbGwvVXBkYXRlU2tpbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/SocialMedia/SocialMediaList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU29jaWFsTWVkaWEvU29jaWFsTWVkaWFMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Statistic/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RhdGlzdGljL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Testimonial/AddTestimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVzdGltb25pYWwvQWRkVGVzdGltb25pYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Testimonial/TestimonialList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVzdGltb25pYWwvVGVzdGltb25pYWxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Testimonial/UpdateTestimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVzdGltb25pYWwvVXBkYXRlVGVzdGltb25pYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/ToDoList/CreateToDoList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVG9Eb0xpc3QvQ3JlYXRlVG9Eb0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/ToDoList/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVG9Eb0xpc3QvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/ToDoList/UpdateToDoList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVG9Eb0xpc3QvVXBkYXRlVG9Eb0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ipek/Desktop/MyPortfolıoUdemy/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6a2ha6dp32

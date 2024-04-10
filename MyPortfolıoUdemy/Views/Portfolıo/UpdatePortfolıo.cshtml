@@ -1,0 +1,46 @@
+﻿
+
+@model Portfolıo
+
+@{
+    ViewData["Title"] = "UpdatePortfolıo";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <h4 class="page-title">Projelerim</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">Proje Güncelleme Sayfası</div>
+                    </div>
+                    <div class="card-body">
+
+                        <form method="post">
+                            <input type="hidden" asp-for="PortfolıoId" />
+                            <label>Proje Adı</label>
+                            <input type="text" asp-for="Title" class="form-control" />
+                            <br />
+                            <label>Açıklama</label>
+                            <input type="text" asp-for="SubTtitle" class="form-control" />
+                            <br />
+                            <label>Proje Görseli</label>
+                            <input type="text" asp-for="ImagrUrl" class="form-control" />
+                            <br />
+                            <label>Proje Yolu</label>
+                            <input type="text" asp-for="Url" class="form-control" />
+                            <br />
+                            <label>Detay</label>
+                            <textarea rows="4" class="form-control" asp-for="Description"></textarea>
+                            <br />
+                            <button class="btn btn-primary">Deneyimi Güncelle</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

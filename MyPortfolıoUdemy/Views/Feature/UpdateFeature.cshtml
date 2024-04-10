@@ -1,0 +1,36 @@
+﻿@model Feature
+
+@{
+    ViewData["Title"] = "UpdateFeature";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <h4 class="page-title">Öne Çıkan Alan</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">Öne Çıkan  Güncelleme Sayfası</div>
+                    </div>
+                    <div class="card-body">
+
+                        <form method="post">
+                            <input type="hidden" asp-for="FeatureId" />
+                            <label>Başlık</label>
+                            <input type="text" asp-for="Title" class="form-control" />
+                            <br />
+                            <label>Detay</label>
+                            <input type="text" asp-for="Description" class="form-control" />
+                            <br />
+                            
+                            <button class="btn btn-primary">Öne Çıkan Alanı Güncelle</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

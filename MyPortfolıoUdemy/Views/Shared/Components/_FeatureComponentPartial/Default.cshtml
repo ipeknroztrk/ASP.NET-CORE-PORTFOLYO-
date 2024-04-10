@@ -1,0 +1,55 @@
+﻿@model List<MyPortfolıoUdemy.DAL.Entities.Feature>
+    <!-- -->
+<section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="https://i.hizliresim.com/b1lapzh.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+    <div class="overlay"></div>
+    <div class="shadow-overlay"></div>
+
+    @foreach (var item in Model)
+    {
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>@item.Title</h3>
+
+                <h1>@item.Description</h1>
+                     
+                   
+                <div class="home-content__buttons">
+                    <a href="#works" class="smoothscroll btn btn--stroke">
+                        Son Projelerim
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        Hakkımda
+                    </a>
+                </div>
+
+                <div class="home-content__scroll">
+                    <a href="#about" class="scroll-link smoothscroll">
+                        <span>Aşagı İn </span>
+                    </a>
+                </div>
+
+            </div>
+
+        </div> <!-- end home-content -->
+
+
+    }
+
+    <ul class="home-social">
+        <li>
+            <a href="https://www.linkedin.com/in/ipek-nur-%C3%B6zt%C3%BCrk-5b6bb9218/"><i class="im im-linkedin" aria-hidden="true"></i><span>Linkedln</span></a>
+        </li>
+        <li>
+            <a href="https://github.com/ipeknroztrk"><i class="im im-github" aria-hidden="true"></i><span>Github</span></a>
+        </li>
+        <li>
+            <a href="#"><i class="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+        </li>
+        
+    </ul>
+    <!-- end home-social -->
+
+</section>
