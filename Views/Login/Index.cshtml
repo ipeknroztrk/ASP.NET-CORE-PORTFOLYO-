@@ -1,0 +1,92 @@
+﻿@model MyPortfolıoUdemy.DAL.Entities.Admin
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Giriş</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .bg-image {
+            background-image: url('https://i.hizliresim.com/b1lapzh.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .white-box {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 40px;
+            border-radius: 10px;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .login100-form-title {
+            font-size: 24px;
+            color: #333333;
+            margin-bottom: 30px;
+            display: block;
+        }
+
+        .input100 {
+            width: 100%;
+            border-radius: 20px;
+            padding: 10px 15px;
+            margin-bottom: 20px;
+            border: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s;
+        }
+
+            .input100:focus {
+                border-color: #5b9aff;
+            }
+
+        .login100-form-btn {
+            width: 100%;
+            background-color: #FF0000;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 15px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            .login100-form-btn:hover {
+                background-color: #B30000;
+            }
+    </style>
+</head>
+<body>
+    <div class="bg-image">
+        <div class="white-box">
+            <span class="login100-form-title">Admin Paneli Giriş</span>
+
+            <form method="post">
+                <input class="input100" type="text" name="UserName" placeholder="Kullanıcı Adı" />
+                <input class="input100" type="password" name="Password" placeholder="Şifre" />
+                <button type="submit" class="login100-form-btn">Giriş Yap</button>
+            </form>
+
+
+            @if (ViewBag.Error != null)
+            {
+                <div style="color: red; margin-top: 10px;">@ViewBag.Error</div>
+            }
+        </div>
+    </div>
+</body>
+</html>

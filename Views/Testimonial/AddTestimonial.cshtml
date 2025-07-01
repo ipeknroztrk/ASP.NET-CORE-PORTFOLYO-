@@ -1,0 +1,24 @@
+﻿@model Testimonial
+
+@{
+    ViewData["Title"] = "AddTestimonial";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<h2>Yeni Referans Ekleme Sayfası</h2>
+
+<form method="post">
+    <label>Referans Adı Soyadı</label>
+    <input type="text" class="form-control" name="NameSurname" />
+    <br />
+    <label>Referans Unvan</label>
+    <input type="text" class="form-control" name="Title" />
+    <br />
+
+
+    <label>Referans Yorumu</label>
+    
+    <textarea class="form-control" rows="5" name="Description"></textarea>
+    <br />
+    <button class="btn btn-primary">Referansı Ekle</button>
+</form>

@@ -1,0 +1,62 @@
+﻿@model List<MyPortfolıoUdemy.DAL.Entities.Experience>
+
+<div class="row narrow section-intro has-bottom-sep text-center">
+    <div class="col-full">
+        <h3>Proje Ve İş Deneyimlerim</h3>
+    </div>
+</div>
+
+<div class="row justify-center about-content--timeline" style="display: flex; flex-wrap: wrap; justify-content: center;">
+    @foreach (var item in Model)
+    {
+        <div class="col-six tab-full timeline-card">
+            <div class="timeline">
+                <div class="timeline__block">
+                    <div class="timeline__bullet"></div>
+                    <div class="timeline__header">
+                        <p class="timeline__timeframe">@item.Date</p>
+                        <h3>@item.Head</h3>
+                        <h5>@item.Title</h5>
+                    </div>
+                    <div class="timeline__desc">
+                        <p>@item.Description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    .timeline__block {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .timeline__desc {
+        flex-grow: 1;
+    }
+
+    .about-content--timeline {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .timeline-card {
+        flex: 0 0 calc(50% - 30px);
+        padding: 0 15px;
+        margin-bottom: 30px;
+        box-sizing: border-box;
+    }
+
+    @@media (max-width: 768px) {
+        .timeline-card
+
+    {
+        flex: 0 0 100% !important;
+        padding: 0 10px !important;
+    }
+
+    }
+</style>

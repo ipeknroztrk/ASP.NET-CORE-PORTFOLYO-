@@ -1,0 +1,213 @@
+﻿@model List<MyPortfolıoUdemy.DAL.Entities.Feature>
+
+<section id="home" class="s-home page-hero target-section">
+
+    <!-- Video Container -->
+    <div class="video-container">
+        <div id="yt-player" class="youtube-iframe"></div>
+        <div class="mobile-fallback" style="background-image: url('https://i.hizliresim.com/jvy6rb9.jpg');"></div>
+    </div>
+
+    <div class="overlay"></div>
+    <div class="shadow-overlay"></div>
+
+    @foreach (var item in Model)
+    {
+        <div class="home-content">
+            <div class="row home-content__main">
+                <h3>@item.Title</h3>
+                <h1>@item.Description</h1>
+
+                <div class="home-content__buttons">
+                    <a href="#works" class="smoothscroll btn btn--stroke">
+                        Son Projelerim
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        Hakkımda
+                    </a>
+                </div>
+
+                <div class="home-content__scroll">
+                    <a href="#about" class="scroll-link smoothscroll">
+                        <span>Aşağı İn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+
+    <ul class="home-social">
+        <li>
+            <a href="https://www.linkedin.com/in/ipek-nur-%C3%B6zt%C3%BCrk-5b6bb9218/" target="_blank" rel="noopener noreferrer">
+                <i class="im im-linkedin" aria-hidden="true"></i><span>LinkedIn</span>
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/ipeknroztrk" target="_blank" rel="noopener noreferrer">
+                <i class="im im-github" aria-hidden="true"></i><span>Github</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class="im im-instagram" aria-hidden="true"></i><span>Instagram</span>
+            </a>
+        </li>
+    </ul>
+
+    <!-- YouTube Player API with Mobile Detection -->
+    <script>
+        // Mobil kontrolü geliştirilmiş versiyon
+        function isMobileDevice() {
+            return (typeof window.orientation !== "undefined") ||
+                   (navigator.userAgent.indexOf('IEMobile') !== -1) ||
+                   (window.matchMedia('(max-width: 768px)').matches);
+        }
+
+        function initYouTubePlayer() {
+            // YouTube API dinamik yükleme
+            const tag = document.createElement('script');
+            tag.src = "https://www.youtube.com/iframe_api";
+            const firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+            window.onYouTubeIframeAPIReady = function() {
+                new YT.Player('yt-player', {
+                    videoId: '8BgwvVXZghw',
+                    playerVars: {
+                        'autoplay': 1,
+                        'mute': 1,
+                        'controls': 0,
+                        'disablekb': 1,
+                        'fs': 0,
+                        'loop': 1,
+                        'playlist': '8BgwvVXZghw',
+                        'rel': 0,
+                        'showinfo': 0,
+                        'modestbranding': 1,
+                        'iv_load_policy': 3,
+                        'start': 2,
+                        'end': 0
+                    },
+                    events: {
+                        'onReady': onPlayerReady,
+                        'onStateChange': onPlayerStateChange
+                    }
+                });
+            };
+
+            function onPlayerReady(event) {
+                event.target.playVideo();
+                // Video hazır olduğunda opacity animasyonu
+                document.getElementById('yt-player').style.opacity = '1';
+                // 10 saniyede bir video durumunu kontrol et
+                setInterval(function() {
+                    if (event.target.getPlayerState() === YT.PlayerState.ENDED) {
+                        event.target.playVideo();
+                    }
+                }, 10000);
+            }
+
+            function onPlayerStateChange(event) {
+                if (event.data === YT.PlayerState.ENDED) {
+                    event.target.playVideo();
+                }
+            }
+        }
+
+        // Sayfa yüklendiğinde kontrol
+        document.addEventListener('DOMContentLoaded', function() {
+            if (!isMobileDevice()) {
+                initYouTubePlayer();
+            } else {
+                document.querySelector('.mobile-fallback').style.display = 'block';
+                document.querySelector('.youtube-iframe').style.display = 'none';
+            }
+        });
+    </script>
+    <style>
+     
+        .youtube-iframe {
+            position: absolute;
+            width: 100%;
+            height: 120%; /* Ekstra yükseklik */
+            top: -10%; /* Üstten kırp */
+            left: 0;
+        }
+
+        .mobile-fallback {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: none;
+        }
+
+      
+
+        /* OVERLAY AYARLARI */
+        .overlay {
+            background: rgba(0,0,0,0.4);
+        }
+
+        /* MEDIA QUERIES */
+        /* Masaüstü için ekran oranı ayarları */
+        @@media (min-aspect-ratio: 16/9) {
+            #yt-player iframe {
+                width: 177.77vh;
+                height: 100vh;
+            }
+        }
+
+        @@media (max-aspect-ratio: 16/9) {
+            #yt-player iframe {
+                width: 100vw;
+                height: 56.25vw;
+            }
+        }
+
+        /* Mobil cihazlar için ayarlar */
+        @@media (max-width: 768px) {
+            .home-content__buttons {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .youtube-iframe {
+                display: none !important;
+            }
+
+            .mobile-fallback {
+                display: block !important;
+            }
+        }
+
+        .ytp-title-link,
+        .ytp-watermark,
+        .ytp-chrome-top {
+            display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+        }
+
+        /* Video konteynerini üstten kırpma */
+        .video-container {
+            position: fixed;
+            top: -10%; /* Üst kısmı kırp */
+            left: 0;
+            width: 100%;
+            height: 110%; /* Ekstra yükseklik */
+            overflow: hidden;
+        }
+
+        /* Video boyutlandırma */
+        #yt-player iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transform: scale(1.1);
+            %10 büyütme
+        }
+    </style>
+</section>

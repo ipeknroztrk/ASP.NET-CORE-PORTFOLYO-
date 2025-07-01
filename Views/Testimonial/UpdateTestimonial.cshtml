@@ -1,0 +1,22 @@
+﻿@model Testimonial
+
+@{
+    ViewData["Title"] = "UpdateTestimonial";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+
+<h2>Referans Güncelleme Sayfası</h2>
+
+<form method="post">
+    <label>Referans ID</label>
+    @Html.TextBoxFor(x => x.TestimonialId, new { @class = "form-control" })
+    <label>Referans Adı Soyadı</label>
+    @Html.TextBoxFor(x => x.NameSurname, new { @class = "form-control" })
+    <label>Referans Ünvan</label>
+    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+    <label>Referans Yorumu</label>
+    @Html.TextAreaFor(x => x.Description, 5, 1, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-outline-primary">Verileri Güncelle</button>
+</form>

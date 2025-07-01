@@ -1,0 +1,80 @@
+﻿@model List<Contact>
+
+@{
+    ViewData["Title"] = "ContactList";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+<div class="content">
+    <div class="container-fluid">
+        <h4 class="page-title">İletişim Bilgileri</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title"></div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-sub">
+                            İletişimler ile ilgili işlemleri aşağıdaki panelden yapabilirsiniz.
+                        </div>
+                        <table class="table mt-3">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Başlık</th>
+                                    <th scope="col">Açıklama</th>
+                                    <th scope="col">Telefon 1</th>
+                                    <th scope="col">Telefon 2</th>
+                                    <th scope="col">E mail 1</th>
+                                    <th scope="col">E mail 2</th>
+                                    <th scope="col">Adres </th>
+
+                                    <th scope="col">Güncelle</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.ContactId</td>
+                                        <td>@item.Title</td>
+                                        <td>@item.Description</td>
+                                        <td>@item.Phone1</td>
+                                        <td>@item.Phone2</td>
+                                        <td>@item.Email1</td>
+                                        <td>@item.Email2</td>
+                                        <td>@item.Address</td>
+
+
+
+                                        <td><a href="/Contact/UpdateContact/@item.ContactId" class="btn btn-success">Güncelle</a></td>
+
+                                    </tr>
+
+                                }
+
+                            </tbody>
+                        </table>
+
+
+
+                    </div>
+                    
+                </div>
+
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+</div>
+
+
