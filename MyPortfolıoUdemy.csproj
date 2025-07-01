@@ -98,4 +98,7 @@
     <Content Remove="wwwroot\" />
     <Content Remove="wwwroot\hola-master\images\portfolio\gallery\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dockerfile" />
+  </ItemGroup>
 </Project>
